@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <!--
+    New Perspectives on HTML5 and CSS3, 8th Edition
+    CA1
+    Author: YEK YI WEI
+    Date:   
+
+    Filename: CA1.html
+   -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+  <!-- Icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS --> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- jQuery library --> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript --> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="../css/pcreset.css" rel="stylesheet" />
+  <link href="../css/pchome.css" rel="stylesheet" />
+  <script src="../javascript/top.js" defer></script>
+</head>
+    
+<header>
+ <nav class ="Idtrial">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-black navbar-dark">
+      <a class=".navbar-brand"><img src="../images/logo.jpg" alt="logo" width="70" class="rounded-circle d-inline-block align-items-top mr-2"></a><!-- sp.edu.sg -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="btn btn-outline-light btn-lg m-2" href="index.html">Home</a>
+          <li class="nav-item">
+            <a class="btn btn-outline-light btn-lg m-2" href="past_exp.html">Past School Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light btn-lg m-2" href="sp_exp.html">SP Experience</a>
+          </li>    
+          <li class="nav-item">
+            <a class="btn btn-outline-light btn-lg m-2" href="my_course.html">My course & career prospect</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light btn-lg m-2" href="feedback.html">Feedback</a>
+          </li>
+        </ul>
+      </div>  
+    </nav>
+    <br>
+    <!-- Background image -->
+<div id="intro" class="bg-image shadow-2-strong">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.616);">
+        <div class="container d-flex align-items-center justify-content-center text-center h-100 pt-5">
+          <div class="text-white">
+           <div id="title"> <h1 class="mb-3">Feedback</h1></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </nav>
+    <!-- Background image -->
+</header>
+
+
+<div class="separation">
+<form class="container-fluid col-10 offset-1 px-5 py-3 mt-4 border border-dark bg-white">
+  <div class="display-4 text-center mb-3"><h1>Your opinion matters</h1>
+                <h5>Help us improve our product? Give us your feedback</h5></div>
+  <div class="row">
+      <!-- Name input -->
+      <div class="form-outline col-lg-6 col-sm-7 col-12">
+          <label class="form-label" for="name">Name*</label>
+          <input type="text" id="name" class="form-control" placeholder="John Tan Xiao Ming" required />
+      </div>
+
+      <!-- Gender input -->
+      <div class="form-group col-lg-3 col-sm-5 col-6">
+          <label for="gender">Gender*</label>
+          <select class="form-control" id="gender">
+              <option>I do not wish to say</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Others</option>
+          </select>
+      </div>
+
+      <!-- Age input -->
+      <div class="form-group col-lg-3 col-sm-6 col-6">
+          <label for="Age">Age*</label>
+          <select class="form-control" id="age">
+              <option>Prefer not to say</option>
+              <option>Below 15</option>
+              <option>15 to 25</option>
+              <option>25 to 35</option>
+              <option>35 to 45</option>
+              <option>45 to 55</option>
+              <option>55 to 65</option>
+              <option>Above 65</option>
+          </select>
+      </div>
+
+      <!-- Email input -->
+      <div class="form-outline col-lg-8 col-12 mb-3">
+          <label class="form-label" for="email">Email*</label>
+          <input type="email" id="email" class="form-control" placeholder="abc123@example.com" required />
+      </div>
+  </div>
+
+  <!-- Radio option buttons -->
+  <div class="row px-3 mt-5">
+      <p class="col-lg-6 col-sm-8 col-12">Was the website easy to navigate?*</p>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" name="easyToUse" id="yesOptionQuestion1" required>
+          <label class="form-check-label" for="yesOptionQuestion1">Yes</label>
+      </div>
+      <div class="form-check offset-1">
+          <input class="form-check-input" type="radio" name="easyToUse" id="noOptionQuestion1" required>
+          <label class="form-check-label" for="noOptionQuestion1">No</label>
+      </div>
+  </div>
+  <div class="row px-3">
+      <p class="col-lg-6 col-sm-8 col-12">Was the website informative?*</p>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" name="informative" id="yesOptionQuestion2" required>
+          <label class="form-check-label" for="yesOptionQuestion2">Yes</label>
+      </div>
+      <div class="form-check offset-1">
+          <input class="form-check-input" type="radio" name="informative" id="noOptionQuestion2" required>
+          <label class="form-check-label" for="noOptionQuestion2">No</label>
+      </div>
+  </div>
+  <div class="row px-3">
+      <p class="col-lg-6 col-sm-8 col-12">Would you recommend my website to others?*</p>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" name="recommend" id="yesOptionQuestion4" required>
+          <label class="form-check-label" for="yesOptionQuestion4">Yes</label>
+      </div>
+      <div class="form-check offset-1">
+          <input class="form-check-input" type="radio" name="recommend" id="noOptionQuestion4" required>
+          <label class="form-check-label" for="noOptionQuestion4">No</label>
+      </div>
+  </div>
+
+   <!-- Slider -->
+   <div class="form-group text-center mt-5 w-50">
+    <label for="rangeSlider">Rate my website</label><input id="rangeSlider">
+    <input class="border-0 form-control mt-2" type="range" min="0" max="100" value="50" id="rating">
+    <div class="row justify-content-between">
+        <span class="evaluationFactorBad">Poor <i class="fa fa-thumbs-down" aria-hidden="true"></i></span>
+        <span class="evaluationFactorGood">Excellent <i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+      </div>
+    </div>
+
+  <!-- Text area box -->
+  <div class="form-group mt-5">
+      <label for="areasOfImprovement">Please leave any additional comments below:</label>
+      <textarea class="form-control" rows="5" name="areasOfImprovement" id="areasOfImprovement" placeholder="Enter your text here"></textarea>
+  </div>
+
+  <!-- Check Box -->
+  <div class="form-group">
+      <input type="checkbox" id="checkbox" class="form-check-input">
+      <label for="checkbox">Agree to terms and conditions</label>
+  </div>
+
+  <div class="ml-5 row col-lg-6 col-sm-8 offset-lg-4 offset-sm-2">
+      <!-- Submit button -->
+      <div class="form-group col-9">
+          <input class='form-control font-weight-bold btn btn-primary' type='submit' value='Submit' onclick="displaySubmitAlert()" id="submitButton">
+      </div>
+  </div>
+</form>
+</div>
+
+<footer class="text-center text-white mt-0 p-lg-3 p-sm-4 p-5">
+  <div class="pt-3"> 
+  <!-- Google -->
+  <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="https://yekluke@gmail.com" role="button"><i class="fa fa-google"></i></a>
+  <!-- Instagram -->
+  <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="https://www.instagram.com/lukeyek/" role="button"><i class="fa fa-instagram"></i></a>
+  <!-- Facebook-->
+  <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="https://www.facebook.com/luke.yek.3" role="button"><i class="fa fa-facebook"></i></a>
+  <!-- Copyright -->
+  <section class="p-1 mt-sm-0 mt-2">
+  <h6> <div class="container-login100" style="background-image: url('images/bg-01.jpg');"></h6>
+  </section>
+</div>
+</footer>
+</body>
+
+</html>

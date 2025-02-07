@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Tutorial Case
+   
+   Style Sheet for the Layout 
+   Author: Yek Yi Wei  
+   
+   Filename: pc_home.css
+
+*/
+
+/* HTML and Body Styles */
+
+ /* The image used */
+#intro {
+  background-image: url("../images/background.jpg");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #intro {
+    margin-top: -58.59px;
+  }
+}
+
+
+.Idtrial{
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.separation{
+   padding-top: 260px;
+}
+
+body{
+   background-color: rgb(255, 255, 255);
+}
+
+nav {
+   transition: background 0.4s ease-in-out;
+   background: #010101;
+ }
+ .is-hidden {
+   opacity: 0;
+   transition: transform 0.4s, opacity 0.2s;
+ }
+
+#title{
+  margin-top:40px;
+}
+
+.middleContainer{
+  padding-top: 100px;
+ 
+}
+
+.imageborder{
+  border: 3px solid rgb(0, 0, 0);
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(0, 0, 0)
+}
+
+#special{
+  color: white;
+}
+
+span{
+  transition: all 1.2s ease;
+  display: inline-block;
+}
+
+span.fade{
+  color:rgb(0, 0, 0);
+}
+
+#gameCanvas{
+  resize:40%;
+}
+
+#merlion{
+  width: 40%;
+}
+
+#personality{
+  width: 40%;
+  float: right;
+}
+
+#carousel{
+  resize: 40%
+}
+
+#foot{
+  margin-top: 80px;
+}
+
+.hi{
+  padding-top: 300px;
+}
+
+.pt-3{
+  background-color: black;
+}
+
+.tableAlign{
+  padding-left: 90px;
+}
+
+.module{
+  margin-top:100px;
+}
+
+.firstpage{
+  font-family: Arial, Helvetica, sans-serif;
+}

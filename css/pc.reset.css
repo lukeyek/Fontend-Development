@@ -1,0 +1,11 @@
+@charset "utf-8";
+html, body, header, nav, li, .container, 
+div, .sp, h1, h2, h3, h4, img,
+ p, section, footer {
+font-size: 100%;
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+box-sizing: border-box;
+}
+   
